@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgriVerse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e3f9e5, #d0f0c0, #a8e6cf);
+            background-attachment: fixed;
+            font-family: "Poppins", sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1140px;
+            margin-top: 70px;
+        }
+        h1 {
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #2b7a0b;
+        }
+        .card {
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            text-align: center;
+            padding: 35px 25px;
+            background: #ffffffcc;
+            backdrop-filter: blur(10px);
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+        .icon {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            margin-top: 20px;
+            width: 100%;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+        .btn-success {
+            background-color: #4CAF50;
+            border: none;
+        }
+        .btn-primary {
+            background-color: #0078d7;
+            border: none;
+        }
+        footer {
+            margin-top: 70px;
+            text-align: center;
+            color: #2e7d32;
+            font-size: 0.9rem;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center mb-5">
+        🌾 AgriVerse: Smart Agriculture Companion
+    </h1>
+
+    <div class="row g-4">
+        <!-- Crop Recommendation Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="icon">🌱</div>
+                <h4 class="mb-3">Crop Recommendation</h4>
+                <p>Discover the best crops for your soil and climate using AgriVerse’s intelligent recommendation engine.</p>
+                <a href="/crop" class="btn btn-success btn-custom">Explore Crop Recommendations</a>
+            </div>
+        </div>
+
+        <!-- AI Assistant Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h4 class="mb-3">AI Assistant</h4>
+                <p>Chat with our virtual agriculture assistant for insights, advice, and real-time answers to your farming questions.</p>
+                <a href="/chatbot" class="btn btn-primary btn-custom">Talk to AgriVerse AI</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 AgriVerse. All Rights Reserved.
+</footer>
+</body>
+</html>
