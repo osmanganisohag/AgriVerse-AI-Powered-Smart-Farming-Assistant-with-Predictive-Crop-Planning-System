@@ -69,7 +69,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/mdjisan1/AgriGPT-Enhancing-Agriculture-with-Fine-Tuned-Language-Models-and-Crop-Prediction.git](https://github.com/mdjisan1/AgriGPT-Enhancing-Agriculture-with-Fine-Tuned-Language-Models-and-Crop-Prediction.git)
+    git clone [https://github.com/osmanganisohag/AgriGPT-Enhancing-Agriculture-with-Fine-Tuned-Language-Models-and-Crop-Prediction.git](https://github.com/mdjisan1/AgriGPT-Enhancing-Agriculture-with-Fine-Tuned-Language-Models-and-Crop-Prediction.git)
     ```
 
 2.  **Navigate to the project directory:**
